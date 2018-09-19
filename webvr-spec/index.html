@@ -1400,63 +1400,10 @@ body {
   padding-top:0 !important;
   /*min-width:800px !important;*/
 }
-.wb-autocomplete-suggestions {
-    text-align: left; cursor: default; border: 1px solid #ccc; border-top: 0; background: #fff; box-shadow: -1px 1px 3px rgba(0,0,0,.1);
-    position: absolute; display: none; z-index: 2147483647; max-height: 254px; overflow: hidden; overflow-y: auto; box-sizing: border-box;
-}
-.wb-autocomplete-suggestion { position: relative; padding: 0 .6em; line-height: 23px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1.02em; color: #333; }
-.wb-autocomplete-suggestion b { font-weight: bold; }
-.wb-autocomplete-suggestion.selected { background: #f0f0f0; }
+
 </style>
 
-    <table class="c" style="">
-      <tbody>
-	<tr>
-	  <td class="u" colspan="2">
-	    <form target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://mozvr.github.io/webvr-spec/" onfocus="this.focus();this.select();" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20160404135834" /><input type="submit" value="Go" /></form>
-	  </td>
-	  <td class="n" rowspan="2" style="width:110px;">
-	    <table>
-	      <tbody>
-		<!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
-		<tr class="m">
-		  <td class="b" nowrap="nowrap"><a href="http://mozvr.github.io/webvr-spec/" title="03 Mar 2016"><strong>Mar</strong></a></td>
-		  <td class="c" id="displayMonthEl" title="You are here: 13:58:34 Apr 04, 2016">APR</td>
-		  <td class="f" nowrap="nowrap"><a href="http://mozvr.github.io/webvr-spec" title="05 May 2016"><strong>May</strong></a></td>
-		</tr>
-		<!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
-		<tr class="d">
-		  <td class="b" nowrap="nowrap"><a href="20160331194641/https://mozvr.github.io/webvr-spec/" title="19:46:41 Mar 31, 2016"><img src="/static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
-		  <td class="c" id="displayDayEl" style="width:34px;font-size:24px;white-space:nowrap;" title="You are here: 13:58:34 Apr 04, 2016">04</td>
-		  <td class="f" nowrap="nowrap"><a href="http://mozvr.github.io/webvr-spec" title="16:07:38 May 05, 2016"><img src="/static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
-		</tr>
-		<!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
-		<tr class="y">
-		  <td class="b" nowrap="nowrap">2015</td>
-		  <td class="c" id="displayYearEl" title="You are here: 13:58:34 Apr 04, 2016">2016</td>
-		  <td class="f" nowrap="nowrap"><a href="20170502195434/http://mozvr.github.io/webvr-spec" title="02 May 2017"><strong>2017</strong></a></td>
-		</tr>
-	      </tbody>
-	    </table>
-	  </td>
-	</tr>
-	<tr>
-	  <td class="s">
-	    	    <div id="wm-nav-captures">
-	      	      <a class="t" href="/web/20160404135834*/http://mozvr.github.io/webvr-spec/" title="See a list of every capture for this URL">23 captures</a>
-	      <div class="r" title="Timespan for captures of this URL">03 Mar 2016 - 12 Aug 2018</div>
-	      </div>
-	  </td>
-	  <td class="k">
-	    <a href="" id="wm-graph-anchor">
-	      <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
-		<canvas id="wm-sparkline-canvas" width="575" height="27" border="0"></canvas>
-	      </div>
-	    </a>
-	  </td>
-	</tr>
-      </tbody>
-    </table>
+ 
     <div style="position:absolute;bottom:0;right:2px;text-align:right;">
       <a id="wm-expand" class="wm-btn wm-closed" href="#expand" onclick="__wm.ex(event);return false;"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span style="font-size:80%">About this capture</span></a>
     </div>
